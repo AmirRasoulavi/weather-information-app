@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+img {
+    position: fixed;
+    width: 100%;
+    height: 58.55em;
+    display: none;
+    bottom: 0rem;
+}
+img.active{
+    display: block;
+}
+.section-fix.mx-auto {
+    text-align: center;
+    display: flex;
+    z-index: 1003;
+    position: relative;
+    top: 10rem;
+}
+.row.mx-auto {
+    background: #00000082;
+    width: 35em;
+    border-radius: 20px;
+}
+.body {
+    width: 100%;
+    margin-top: 0rem;
+}
+.search input {
+    margin-left: 5.9rem;
+    margin-top: 3rem;
+    padding: 13px;
+    padding-bottom:10px;
+    padding-right: 8rem;
+    border: 0px;
+    color: #fff;
+    background: #ffffff00;
+    border-bottom: 1px solid #000;
+    font-family: cursive;
+}
+.search input::placeholder{
+    color: #fff;
+}
+.search input:focus{
+    border: 0px;
+    border-bottom:1px solid oldlace;
+}
+i.fas.fa-arrow-right {
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    right: 30px;
+    top: 1px;
+}
+span.city-date {
+    float: left;
+}
+span h2 {
+    margin-left: 37px;
+    margin-top: 23px;
+    padding: 3px;
+    color: #73ff0a;
+    font-size: 45px;
+    font-family: emoji;
+}
+span.city-date p {
+    color: #fff;
+    text-align: left;
+    position: relative;
+    left: 45px;
+    bottom: 10px;
+    font-family: none;
+}
+p.seted{
+    background: #fff !important;
+    color: #000 !important;
+}
+span.degree p {
+    margin-top: 2.2rem;
+    float: right;
+    padding: 11px;
+    position: relative;
+    margin-right: 0rem;
+    cursor: pointer;
+    right: 29px;
+    color: #fff;
+    background: #000;
+    font-family: emoji;
+    transition: all 0.5s;
+    width: 39px;
+    height: 38px;
+}
+span.degree p:hover{
+    background-color: rgb(156, 147, 147);
+}
+.cahnger-data {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 87px;
+}
+.shower {
+    text-align: center;
+    margin: auto;
+    margin-top: 4rem;
+    width: 100%;
+    margin-right: 51px;
+    padding-bottom: 35px;
+}
+.icon-weaher {
+    float: left;
+    margin-left: 71px;
+}
+i.icon {
+    font-size: 6rem;
+    color: yellow;
+    position: relative;
+    bottom: 54px;
+    left: 51px;
+}
+.shower h1 {
+    float: right;
+    position: relative;
+    font-family: fantasy;
+    font-size: 125px;
+    color: #fff;
+    right: 176px;
+}
+.big-data {
+    text-align: left;
+    position: relative;
+    color: #fff;
+    width: 159px;
+    left: 21.5rem;
+    bottom: 11px;
+    font-size: 11px;
+    line-height: 1px;
+}
+.big-data a{
+    color: #fff;
+}
+.error {
+    margin-left: 102px;
+    font-size: 13px;
+    color: #f54806;
+    margin-top: 5px;
+}
+i.icon.fas.fa-cloud.clouds{
+    position: absolute;
+    right: 189px;
+    color: #abab12;
+    bottom: 195px;
+}
